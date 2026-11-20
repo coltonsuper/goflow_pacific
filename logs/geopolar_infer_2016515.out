@@ -1,0 +1,51 @@
+/home/colton_super_uri_edu/goflow_pacific/infer_geopolar_daily.py:179: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+  fields["log_gradT_input"][out_i] = log_grad[center]
+/home/colton_super_uri_edu/goflow_pacific/infer_geopolar_daily.py:180: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+  fields["U"][out_i] = uv[0]
+/home/colton_super_uri_edu/goflow_pacific/infer_geopolar_daily.py:181: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+  fields["V"][out_i] = uv[1]
+/home/colton_super_uri_edu/goflow_pacific/infer_geopolar_daily.py:182: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+  fields["Vorticity"][out_i] = vort
+/home/colton_super_uri_edu/goflow_pacific/infer_geopolar_daily.py:183: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+  fields["Divergence"][out_i] = div
+/home/colton_super_uri_edu/goflow_pacific/infer_geopolar_daily.py:184: DeprecationWarning: Setting the shape on a NumPy array has been deprecated in NumPy 2.5.
+As an alternative, you can create a new view using np.reshape (with copy=False if needed).
+  fields["Strain"][out_i] = strain
+Using device: cuda
+Model unet initialized with 1.08M parameters
+Loading model from /project/pi_nicholas_pizzo_uri_edu/colton_goflow/training/training/goflow_training_runs/lgt_unet16_1_3_0.2cs.pth...
+Predicted 1/29, center input day 1
+Predicted 2/29, center input day 2
+Predicted 3/29, center input day 3
+Predicted 4/29, center input day 4
+Predicted 5/29, center input day 5
+Predicted 6/29, center input day 6
+Predicted 7/29, center input day 7
+Predicted 8/29, center input day 8
+Predicted 9/29, center input day 9
+Predicted 10/29, center input day 10
+Predicted 11/29, center input day 11
+Predicted 12/29, center input day 12
+Predicted 13/29, center input day 13
+Predicted 14/29, center input day 14
+Predicted 15/29, center input day 15
+Predicted 16/29, center input day 16
+Predicted 17/29, center input day 17
+Predicted 18/29, center input day 18
+Predicted 19/29, center input day 19
+Predicted 20/29, center input day 20
+Predicted 21/29, center input day 21
+Predicted 22/29, center input day 22
+Predicted 23/29, center input day 23
+Predicted 24/29, center input day 24
+Predicted 25/29, center input day 25
+Predicted 26/29, center input day 26
+Predicted 27/29, center input day 27
+Predicted 28/29, center input day 28
+Predicted 29/29, center input day 29
+Finished. Wrote /project/pi_nicholas_pizzo_uri_edu/colton_goflow/geopolar/preds_geopolar_oct2024_daily.nc
